@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212010C6271A90D7006B1B2B /* Qiita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212010C5271A90D7006B1B2B /* Qiita.swift */; };
+		212010C8271A9177006B1B2B /* QiitaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212010C7271A9177006B1B2B /* QiitaManager.swift */; };
 		21D9457C2715C07F00DD60BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9457B2715C07F00DD60BF /* AppDelegate.swift */; };
 		21D9457E2715C07F00DD60BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9457D2715C07F00DD60BF /* SceneDelegate.swift */; };
 		21D945802715C07F00DD60BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9457F2715C07F00DD60BF /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212010C5271A90D7006B1B2B /* Qiita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita.swift; sourceTree = "<group>"; };
+		212010C7271A9177006B1B2B /* QiitaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaManager.swift; sourceTree = "<group>"; };
 		21D945782715C07F00DD60BF /* QiitaAPITable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaAPITable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D9457B2715C07F00DD60BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D9457D2715C07F00DD60BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +60,41 @@
 		21D9457A2715C07F00DD60BF /* QiitaAPITable */ = {
 			isa = PBXGroup;
 			children = (
+				21D945B12715C81B00DD60BF /* Controller */,
+				21D945B02715C81100DD60BF /* Views */,
+				21D945AF2715C80900DD60BF /* Models */,
 				21D9457B2715C07F00DD60BF /* AppDelegate.swift */,
 				21D9457D2715C07F00DD60BF /* SceneDelegate.swift */,
-				21D9457F2715C07F00DD60BF /* ViewController.swift */,
-				21D945812715C07F00DD60BF /* Main.storyboard */,
 				21D945842715C08100DD60BF /* Assets.xcassets */,
 				21D945862715C08100DD60BF /* LaunchScreen.storyboard */,
 				21D945892715C08100DD60BF /* Info.plist */,
 			);
 			path = QiitaAPITable;
+			sourceTree = "<group>";
+		};
+		21D945AF2715C80900DD60BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				212010C5271A90D7006B1B2B /* Qiita.swift */,
+				212010C7271A9177006B1B2B /* QiitaManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21D945B02715C81100DD60BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21D945812715C07F00DD60BF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21D945B12715C81B00DD60BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21D9457F2715C07F00DD60BF /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				212010C8271A9177006B1B2B /* QiitaManager.swift in Sources */,
 				21D945802715C07F00DD60BF /* ViewController.swift in Sources */,
 				21D9457C2715C07F00DD60BF /* AppDelegate.swift in Sources */,
+				212010C6271A90D7006B1B2B /* Qiita.swift in Sources */,
 				21D9457E2715C07F00DD60BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
