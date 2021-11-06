@@ -26,15 +26,12 @@ class QiitaManager {
                 if response.statusCode == 200 {
                     let decoder = JSONDecoder()
                     let results = try!  decoder.decode([Qiita].self, from: data)
-                    //self.articles = results
-                    //print("Articles: \(self.articles)")
                     completion(results)
                 } else {
                     print("サーバエラー ステータスコード: \(response.statusCode)\n")
                 }
             })
             task.resume()
-            //print("QiitaManager: \(articles)")
         } else {
             print("URLエラー")
         }

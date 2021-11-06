@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2100B07C27333C06001BE648 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2100B07B27333C06001BE648 /* WebViewController.swift */; };
 		212010C6271A90D7006B1B2B /* Qiita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212010C5271A90D7006B1B2B /* Qiita.swift */; };
 		212010C8271A9177006B1B2B /* QiitaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212010C7271A9177006B1B2B /* QiitaManager.swift */; };
 		21D9457C2715C07F00DD60BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D9457B2715C07F00DD60BF /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2100B07B27333C06001BE648 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		212010C5271A90D7006B1B2B /* Qiita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qiita.swift; sourceTree = "<group>"; };
 		212010C7271A9177006B1B2B /* QiitaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaManager.swift; sourceTree = "<group>"; };
 		21D945782715C07F00DD60BF /* QiitaAPITable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaAPITable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				21D9457F2715C07F00DD60BF /* ViewController.swift */,
+				2100B07B27333C06001BE648 /* WebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				212010C8271A9177006B1B2B /* QiitaManager.swift in Sources */,
+				2100B07C27333C06001BE648 /* WebViewController.swift in Sources */,
 				21D945802715C07F00DD60BF /* ViewController.swift in Sources */,
 				21D9457C2715C07F00DD60BF /* AppDelegate.swift in Sources */,
 				212010C6271A90D7006B1B2B /* Qiita.swift in Sources */,
